@@ -9,8 +9,8 @@ import (
 	"github.com/di-wu/parser"
 	"github.com/di-wu/parser/ast"
 
-	"github.com/scim2/filter-parser/v2/internal/grammar"
-	typ "github.com/scim2/filter-parser/v2/internal/types"
+	"github.com/BananZG/filter-parser/v2/internal/grammar"
+	typ "github.com/BananZG/filter-parser/v2/internal/types"
 )
 
 // ParseAttrExp parses the given raw data as an AttributeExpression.

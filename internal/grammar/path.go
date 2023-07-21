@@ -1,9 +1,9 @@
 package grammar
 
 import (
+	typ "github.com/BananZG/filter-parser/v2/internal/types"
 	"github.com/di-wu/parser/ast"
 	"github.com/di-wu/parser/op"
-	"github.com/scim2/filter-parser/v2/internal/types"
 )
 
 func Path(p *ast.Parser) (*ast.Node, error) {

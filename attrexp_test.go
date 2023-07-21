@@ -3,10 +3,11 @@ package filter
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/di-wu/parser/ast"
-	"github.com/scim2/filter-parser/v2/internal/grammar"
 	"strings"
 	"testing"
+
+	"github.com/BananZG/filter-parser/v2/internal/grammar"
+	"github.com/di-wu/parser/ast"
 )
 
 func ExampleParseAttrExp_pr() {

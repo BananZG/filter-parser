@@ -5,7 +5,7 @@ import (
 	"github.com/di-wu/parser/ast"
 	"github.com/di-wu/parser/op"
 
-	typ "github.com/scim2/filter-parser/v2/internal/types"
+	typ "github.com/BananZG/filter-parser/v2/internal/types"
 )
 
 func AttrExp(p *ast.Parser) (*ast.Node, error) {
